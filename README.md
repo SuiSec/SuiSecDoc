@@ -20,7 +20,7 @@ layout:
 
 # Welcome
 
-Welcome to the SuiSec Documentation Library.
+Welcome to the SuiSec Documentation Library.  
 SuiSec is a technical team dedicated to the security of the Sui ecosystem, having developed various security tools within the Sui ecosystem. We are willing to work with you to protect users. Your use is welcome.
 
 ### Jump right in

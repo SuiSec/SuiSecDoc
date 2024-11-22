@@ -37,6 +37,6 @@ try {
 export interface Response {
   dryRun: DryRunTransactionBlockResponse;
   pass: boolean;
-  Error?: Error;
+  msg?: String;
 }
 ```
