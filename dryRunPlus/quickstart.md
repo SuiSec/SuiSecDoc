@@ -20,7 +20,10 @@ try {
         headers: {
             'Content-Typs': 'application/json',
         },
-        body: JSON.stringify({ transaction: JSON.stringify(tx.getData()) })
+        body: JSON.stringify({ 
+            transaction: JSON.stringify(tx.getData()),
+            website: string,  // optional
+        })
     });
 
     if (!checkResponse.ok) {
@@ -37,6 +40,6 @@ try {
 export interface Response {
   dryRun: DryRunTransactionBlockResponse;
   pass: boolean;
-  msg?: String;
+  msg: String | undefined;
 }
 ```
