@@ -17,4 +17,4 @@
 
 ## HoneyPot Detection
 
-* [Introduction](./HotPotDetect/introduction.md)
+* [Introduction](./HoneyPotDetection/introduction.md)
