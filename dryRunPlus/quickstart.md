@@ -15,7 +15,7 @@ const tx = new Transaction();
 // PTB
 tx.setSender(userAddress);
 try {
-    const checkResponse = await fetch('https://api.suisec.tech/', {
+    const checkResponse = await fetch('https://api.suisec.tech/dryRunPlus', {
         method: 'POST',
         headers: {
             'Content-Typs': 'application/json',
