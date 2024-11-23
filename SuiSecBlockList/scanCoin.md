@@ -4,7 +4,7 @@ icon: bullseye-arrow
 
 # Scan Coin
 
-## Example
+## Usage
 
 ```TypeScript
 import { getFullnodeUrl, SuiClient } from "@mysten/sui/client";

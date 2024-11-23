@@ -6,7 +6,7 @@ icon: bullseye-arrow
 
 DryRunPlus is a transaction simulation and security analysis tool specifically designed for Sui Network wallets. After receiving a transaction request, it analyzes the transaction using various security strategies, and then returns the results of the simulated transaction and the security analysis to the wallet, helping users assess the risks of the transaction.
 
-## Example
+## Usage
 
 ### Request
 

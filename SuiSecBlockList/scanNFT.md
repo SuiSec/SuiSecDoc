@@ -4,7 +4,7 @@ icon: bullseye-arrow
 
 # Scan NFT
 
-## Example
+## Usage
 
 ```TypeScript
 import { getFullnodeUrl, SuiClient } from "@mysten/sui/client";

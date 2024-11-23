@@ -4,7 +4,7 @@ icon: bullseye-arrow
 
 # Scan Package
 
-## Example
+## Usage
 
 ```TypeScript
 import { getFullnodeUrl, SuiClient } from "@mysten/sui/client";

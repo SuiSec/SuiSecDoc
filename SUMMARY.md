@@ -10,4 +10,11 @@
 ## SuiSec BlockList
 
 * [Introduction](./SuiSecBlockList/introduction.md)
+* [scanWebsite](./SuiSecBlockList/scanWebsite.md)
+* [scanCoin](./SuiSecBlockList/scanCoin.md)
+* [scanNFT](./SuiSecBlockList/scanNFT.md)
+* [scanPackage](./SuiSecBlockList/scanPackage.md)
 
+## HoneyPot Detection
+
+* [Introduction](./HotPotDetect/introduction.md)

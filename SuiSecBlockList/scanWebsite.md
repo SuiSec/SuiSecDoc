@@ -4,7 +4,7 @@ icon: bullseye-arrow
 
 # Scan Website
 
-## Example
+## Usage
 
 ```TypeScript
 import { SuiSecBlocklist } from "suisecblocklist";
