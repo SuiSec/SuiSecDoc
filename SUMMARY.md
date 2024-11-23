@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 
-## dryRunPlus
+## dryRun Plus
 
 * [Quickstart](./dryRunPlus/quickstart.md)
 * [UX Pattern](./dryRunPlus/ux-pattern.md)
