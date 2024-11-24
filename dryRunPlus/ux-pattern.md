@@ -12,7 +12,7 @@ Return Data Structure
 export interface Response {
   dryRun: DryRunTransactionBlockResponse;
   pass: boolean;
-  msg?: String;
+  msg: String | undefined;
 }
 ```
 
