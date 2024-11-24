@@ -1,5 +1,5 @@
 ---
-icon: bullseye-arrow
+icon: honey-pot
 ---
 
 # Introduction

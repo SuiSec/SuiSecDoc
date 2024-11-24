@@ -10,6 +10,11 @@ DryRunPlus is a transaction simulation and security analysis tool specifically d
 
 ### Request
 
+Parameters:
+
+- `transaction`: `Transaction` data, must contain `sender`.
+- `website`: Optional, string. The website of the DApp that connects to the wallet, if it detects that the site is risky, will share the URL with other security applications for blocking.
+
 ```TypeScript
 const tx = new Transaction();
 // PTB
@@ -43,3 +48,7 @@ export interface Response {
   msg: String | undefined;
 }
 ```
+
+If the transaction analysis shows no risk, the `pass` value is `true`, and `msg` is `undefined`.   
+If the transaction analysis shows risk, the `pass` value is `false`, and `msg` displays the risk information.   
+`dryRun` is `DryRunTransactionBlockResponse`.
